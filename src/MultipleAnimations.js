@@ -10,7 +10,7 @@ const MultipleAnimations = ({ count = 5 }) => {
       width: '100vw', 
       height: '100vh', 
       overflow: 'hidden',
-      backgroundColor: '#f0f0f0' // Light gray background for visibility
+      backgroundColor: '#333333' // Dark gray background for visibility
     }}>
       {Array.from({ length: count }, (_, index) => (
         <MovingAnimation key={index} />
